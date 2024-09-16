@@ -45,7 +45,7 @@ print(6.2+93.3)
 print(9 + 7.1 + 4.34 + 2)
 ```
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab2.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/2.png)
 
 ## Выводы
 С помощью print выводим строки в консоль.
@@ -67,7 +67,7 @@ print(one + two)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab3.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/3.png)
 
 ## Выводы
 Я научился выводить строки в консоль, а также научился пользоваться f-строкой. Изучил что такое конкатенация. 
@@ -89,7 +89,7 @@ print(str(three))
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab4.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/4.png)
 
 ## Выводы
 Я изучил как приводить переменные к типам данных.
@@ -105,7 +105,7 @@ print(one, two, three)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab5.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/5.png)
 
 ## Выводы
 Я научился пользоваться функцией консольного ввода input().
@@ -128,7 +128,7 @@ print('Нахождение остатка от деления: ', a % b)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab6.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/6.png)
 
 ## Выводы
 Я научился выполнять арифметические операции с помощью Python.
@@ -143,7 +143,7 @@ print(line * 5)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab7.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/7.png)
 
 ## Выводы
 Я научился применять математические действия по отношению к строковым переменным.
@@ -157,7 +157,7 @@ print(line.count('l'))
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab8.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/8.png)
 
 ## Выводы
 Я изучил и воспользовался методом count(). Этот метод может быть полезен для анализа текста или проверки наличия определенных символов в строке.
@@ -171,7 +171,7 @@ print('Hello\nWorld')
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab9.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/9.png)
 
 ## Выводы
 Внутри скобок указан строковый литерал 'Hello\nWorld'.
@@ -188,7 +188,7 @@ print(line[:5])
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lab10.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/10.png)
 
 ## Выводы
 Индексация в Python начинается с нуля, поэтому line[1] обращается к второму символу.
@@ -205,7 +205,7 @@ print(1>2)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr1.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/11.png)
 
 ## Выводы
 При выполнении этого кода будет выведено значение False, так как число 1 меньше числа 2.
@@ -220,7 +220,7 @@ print(name, surname, group)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr2.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/12.png)
 
 ## Выводы
 Код определяет переменные name, surname и group, а затем выводит их значения с помощью функции print(). 
@@ -236,7 +236,7 @@ print(number)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr3.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/13.png)
 
 ## Выводы
 Я изучил как приводить к типу данных в Python, а также как работает input(). 
@@ -252,7 +252,7 @@ print(a*5)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr4.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/14.png)
 
 ## Выводы
 Функция print() в Python выводит результат выражения, которое находится перед ней. В этом случае, умножение строки a на число 5 создает новую строку, повторяющую исходную строку 5 раз.
@@ -270,7 +270,7 @@ print(f"Сегодня {day} {month} {year}.", end=" Всего хорошего
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr5.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/15.png)
 
 ## Выводы
 Этот код определяет дату и выводит ее в формате с русскими месячными названиями. Также используется форматированная строка (f-string) для создания выводимого сообщения. Здесь end используется для добавления дополнительного текста после вывода строки без переноса на новую строку.
@@ -286,7 +286,7 @@ print(f"Hello {line} world!")
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr6.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/16.png)
 
 ## Выводы
 Строчку 'my' я занес в отдельную переменную, а потом с помощью форматированной строки (f-string) вставил в выводимую строчку.
@@ -301,7 +301,7 @@ print(len(line))
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr7.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/17.png)
 
 ## Выводы
 Длину строки я узнаю с помощью функции len(). Она подсчитывает количество символов в строке.
@@ -315,7 +315,7 @@ print("HELLO WORLD".lower())
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr8.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/18.png)
 
 ## Выводы
 С помощью функции .lower() содержимое строки я перевел в нижний регистр.
@@ -331,7 +331,7 @@ print((a*b)//c)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr9.png)
+![Меню](hhttps://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/19.png)
 
 ## Выводы
 Я научился выполнять арифметические операции с помощью Python. 
@@ -346,10 +346,11 @@ print(line1+line2)
 ```
 
 ### Результат.
-![Меню](https://github.com/0ffshoreee/SoftwareEngineering/blob/Tema_2/Tema2/Pic/lr10.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/20.png)
 
 ## Выводы
 Я научился складывать строки в Python. 
 
 ## Общие выводы по теме
 Благодаря выполнению лабораторной и самостоятельной работ, я изучил базовый синтаксис языка Python, его базовые операции.
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/111.png)
