@@ -330,7 +330,7 @@ print((a*c)//b)
 ```
 
 ### Результат.
-![Меню](hhttps://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/19.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/19.png)
 
 ## Выводы
 Выполнила некоторые арифметические операции.
