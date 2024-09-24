@@ -22,12 +22,15 @@
 - к.э.н., доцент Панов М.А.
 
 ## Лабораторная работа №1
-### Выведите в консоль три строки. Первая – любое число. Вторая – любое число в виде строки. Третья – любое число с плавающей точкой.
+### 
 
 ```python
-print(123)
-print('321')
-print(3.21)
+one = int(input("Введите значение первой переменной: "))
+two = int(input("Введите значение второй переменной: "))
+if one >= two:
+    print("Выполняется")
+else:
+    print("Не выполняется")
 ```
 ### Результат.
 ![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/1.png)
@@ -40,9 +43,13 @@ print(3.21)
 ### двух переменных типа float. Третья – результат сложения или вычитания минимум двух переменных типа int и float.
 
 ```python
-print(3249+4324)
-print(6.2+93.3)
-print(9 + 7.1 + 4.34 + 2)
+one = int(input("Введите значение первой переменной: "))
+if one < 0:
+    print("Переменная меньше 0")
+elif 0 < one < 10:
+    print("Перемнная больше 0 и меньше 10")
+else:
+    print("Переменная больше 10")
 ```
 ### Результат.
 ![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_2/Pic/2.png)
@@ -56,14 +63,12 @@ print(9 + 7.1 + 4.34 + 2)
 ###  одну.
 
 ```python
-print('Привет, мир!')
-
-world = 'Мир'
-print(f'Привет, {world}!')
-
-one = 'Привет, '
-two = 'Мир!'
-print(one + two)
+numbers = [1, 3, 4, 6, 8, 9]
+value = int(input("Введите значение перемнной: "))
+if value in numbers:
+    print("Переменная есть в данном массиве")
+else:
+    print("Переменной нет в этом массиве")
 ```
 
 ### Результат.
@@ -78,14 +83,15 @@ print(one + two)
 ###  любого типа переменной в str
 
 ```python
-one = 'Hello'
-print(bool(one))
-
-two = 142
-print(float(two))
-
-three = None
-print(str(three))
+numbers = [1, 3, 4, 6, 8, 9, 15, 16, 73, 321, 322]
+value = int(input("Введите значение перемнной: "))
+if value in numbers:
+    if value % 2 == 0:
+      print("Переменная четная и есть в данном массиве")
+    else:
+        print("Переменная нечетная и есть в данном массиве")
+else:
+    print(f"Переменной нет в этом массиве, и она равна {value}")
 ```
 
 ### Результат.
@@ -98,10 +104,18 @@ print(str(three))
 ###  Присвойте трем переменным различные значения, воспользовавшись функцией input().
 
 ```python
-one = input('one: ')
-two = input('two: ')
-three = input('three: ')
-print(one, two, three)
+for i in range(10):
+    print("i = ", i)
+    if i == 0:
+        i += 2
+    if i == 1:
+        continue
+    if i == 2 or i == 3:
+        print("Переменная равна 2 или 3")
+    elif i in [4, 5, 6]:
+        print("Переменная равна 4, 5 или 6")
+    else:
+        break
 ```
 
 ### Результат.
@@ -119,12 +133,15 @@ print(one, two, three)
 ###  операции, прописанные выше.
 
 ```python
-a = 20
-b = 12
-print('Возведение в степень: ', a ** b)
-print('Обычное деление: ', a / b)
-print('Целочисленное деление: ', a // b)
-print('Нахождение остатка от деления: ', a % b)
+string = "привет всем изучающим Phyton!"
+value = input()
+for i in string:
+    if i == value:
+        index = string.find(value)
+        print(f"Буква '{value}' есть в строке под {index} индексом")
+        break
+else:
+    print(f"Буквы '{value}' нет в указанной строке")
 ```
 
 ### Результат.
@@ -138,8 +155,10 @@ print('Нахождение остатка от деления: ', a % b)
 ###  умножение на любое число.
 
 ```python
-line = 'shot'
-print(line * 5)
+value = 100
+for i in range(10, -1, -1):
+    value -= i
+    print(i, value)
 ```
 
 ### Результат.
@@ -152,8 +171,15 @@ print(line * 5)
 ### Посчитайте сколько раз символ ‘l’ встречается в строке ‘Hello World’.
 
 ```python
-line = "Hello world"
-print(line.count('l'))
+value = 0
+while value < 100:
+    if value == 0:
+        value += 10
+    elif value // 5 > 1:
+        value *= 5
+    else:
+        value -= 5
+    print(value)
 ```
 
 ### Результат.
@@ -167,7 +193,14 @@ print(line.count('l'))
 ### одну строку в редакторе кода.
 
 ```python
-print('Hello\nWorld')
+value = 0
+for i in range(10):
+    for j in range(10):
+        if i != j:
+            value += j
+        else:
+            pass
+print(value)
 ```
 
 ### Результат.
@@ -182,9 +215,15 @@ print('Hello\nWorld')
 ### ‘Hello’
 
 ```python
-line = 'Hello world'
-print(line[1])
-print(line[:5])
+even_array = [2, 4, 6, 8, 9]
+flag = False
+for value in even_array:
+    if value % 2 == 1:
+        flag = True
+if flag is True:
+    print("В массиве есть нечетное число")
+else:
+    print("В массиве все числа четные")
 ```
 
 ### Результат.
@@ -201,7 +240,11 @@ print(line[:5])
 ###  строк редактора кода.
 
 ```python
-print(1>2)
+a = 1
+for i in range(2):
+    a*=5
+    a+=1
+print(a)
 ```
 
 ### Результат.
@@ -215,8 +258,8 @@ print(1>2)
 ###  редактора кода.
 
 ```python
-name = 'Кирилл'; surname = 'Зеленцов' ; group = "ПИЭ-22-1"
-print(name, surname, group)
+for letter in reversed("Hello World"):
+    print(letter)
 ```
 
 ### Результат.
@@ -231,8 +274,15 @@ print(name, surname, group)
 ### Программа должна занимать не более двух строк редактора кода.
 
 ```python
-number = int(input("Введите только целочисленные значения: "))
-print(number)
+c = int(input("Введите число от 0 до 10: "))
+if c>10 or c<0:
+    print("Числе не в диапазоне.")
+elif (c >= 0 and c < 4):
+    print("От 0 до 3")
+elif (c >= 4 and c < 6):
+    print("От 3 до 6")
+elif (c >= 6 and c < 11):
+    print("От 6 до 10")
 ```
 
 ### Результат.
@@ -247,8 +297,14 @@ print(number)
 ###  должна занимать не более двух строк редактора кода.
 
 ```python
-a = "abcde"
-print(a*5)
+Phrase = input("Напишите предложение на английском: ").lower()
+Quantity = 0
+for letter in Phrase:
+    if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+        Quantity+=1
+NewPhrase = Phrase.replace("ugly", "beauty")
+print(f"Длина предложения = {len(Phrase)} символов. \nКоличество искомых гласных = {Quantity}. \nНовая фраза = {NewPhrase}."
+      f"\n Начинается ли предложение с The - {NewPhrase.startswith('The')}. \nЗаканчивается ли на end - {NewPhrase.endswith('end')}")
 ```
 
 ### Результат.
@@ -265,8 +321,18 @@ print(a*5)
 ###  редактора кода.
 
 ```python
-day = 14; month = "Сентября"; year = 2024
-print(f"Сегодня {day} {month} {year}.", end=" Всего хорошего!" )
+counter = 0
+string = 'hello'
+values = [0,2,4,6,8,10]
+while counter != 10:
+    memory = string
+    if counter in values:
+        string = string + ' world'
+    print(string)
+    string = memory
+    counter+=1
+memory = ' world'
+print(string + memory)
 ```
 
 ### Результат.
