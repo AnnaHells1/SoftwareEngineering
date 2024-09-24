@@ -1,2 +1,2 @@
-fruit = 'Яблоко'; color = 'Зеленый' ; taste = "Кислое"
-print(fruit, color, taste)
+for letter in reversed("Hello World"):
+    print(letter)

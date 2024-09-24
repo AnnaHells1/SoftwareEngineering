@@ -1,6 +1,9 @@
-a = 22
-b = 4
-print('Возведение в степень: ', a ** b)
-print('Обычное деление: ', a / b)
-print('Целочисленное деление: ', a // b)
-print('Нахождение остатка от деления: ', a % b)
+string = "привет всем изучающим Phyton!"
+value = input()
+for i in string:
+    if i == value:
+        index = string.find(value)
+        print(f"Буква '{value}' есть в строке под {index} индексом")
+        break
+else:
+    print(f"Буквы '{value}' нет в указанной строке")
