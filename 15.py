@@ -1,12 +1,7 @@
-counter = 0
-string = 'hello'
-values = [0,2,4,6,8,10]
-while counter != 10:
-    memory = string
-    if counter in values:
-        string = string + ' world'
-    print(string)
-    string = memory
-    counter+=1
-memory = ' world'
-print(string + memory)
+from Task15 import Heron
+
+a, b, c = map(int, input("Введите 3 стороны треугольника: ").split())
+if a+b>c and a+c>b and b+c>a:
+    Heron(a, b, c)
+else:
+    print("Такого треугольника не существует")

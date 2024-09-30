@@ -1,9 +1,22 @@
-even_array = [2, 4, 6, 8, 9]
-flag = False
-for value in even_array:
-    if value % 2 == 1:
-        flag = True
-if flag is True:
-    print("В массиве есть нечетное число")
-else:
-    print("В массиве все числа четные")
+global result
+
+def rectangle():
+    a = float(input("Ширина: "))
+    b = float(input("Высота: "))
+    global result
+    result = a * b
+
+def triangle():
+    a = float(input("Основание: "))
+    h = float(input("Высота: "))
+    global result
+    result = 0.5 * a * h
+
+figure = input("1 - прямоугольник, 2 - треугольник: ")
+
+if figure == "1":
+    rectangle()
+elif figure == "2":
+    triangle()
+
+print(f"Площадь: {result}")

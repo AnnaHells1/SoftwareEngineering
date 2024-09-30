@@ -1,9 +1,12 @@
-numbers = [1, 3, 4, 6, 8, 9, 15, 16, 73, 321, 322]
-value = int(input("Введите значение перемнной: "))
-if value in numbers:
-    if value % 2 == 0:
-      print("Переменная четная и есть в данном массиве")
-    else:
-        print("Переменная нечетная и есть в данном массиве")
-else:
-    print(f"Переменной нет в этом массиве, и она равна {value}")
+def main(x, *args):
+    one = x
+    two = sum(args)
+    three = float(len(args))
+
+    print(f"one= {one}\ntwo={two}\nthree={three}")
+
+    return x + sum(args) / float(len(args))
+
+if __name__ == "__main__":
+    result = main(10, 0, 1, 2, -1, 0, -1, 1, 2)
+    print(f"\nresult={result}")
