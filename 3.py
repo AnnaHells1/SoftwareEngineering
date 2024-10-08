@@ -1,9 +1,8 @@
-def main(one, two):
-    result = one + two
-    return result
+def replace(input_list):
+    mempory = input_list[0]
+    input_list[0] = input_list[-1]
+    input_list[-1] = mempory
 
-for i in range(5):
-    x = 1
-    y = 10
-    answer = main(x, y)
-    print(answer)
+    return input_list
+
+print(replace([1, 2, 3, 4, 5]))
