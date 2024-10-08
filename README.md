@@ -48,10 +48,10 @@ print('3', set_1 - set_2)
 ```
 
 #### Результат 1:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/1.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/1.png)
 
 #### Результат 2:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/1.1.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/1.1.png)
 
 #### Вывод:  В этом задании демонстрируется использование множеств в Python для нахождения элементов, присутствующих в одном множестве, но отсутствующих в другом. set_1 - set_2 - вычитание множеств, которое возвращает новое множество, содержащее элементы, присутствующие в set_1, но отсутствующие в set_2. set() - обеспечивает быстрый поиск и удаление дубликатов.
 
@@ -74,10 +74,10 @@ for i in range(1, 5):
 print(a)
 ```
 #### Результат 1:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/2.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/2.png)
 
 #### Результат 2:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/2.1.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/2.1.png)
 
 #### Вывод:  set - изменяемое множество, в которое можно добавлять элементы. frozenset - неизменяемое множество, в которое нельзя добавлять элементы. Операция add добавляет новый элемент в множество, если он еще не существует.
 
@@ -95,7 +95,7 @@ def replace(input_list):
 print(replace([1, 2, 3, 4, 5]))
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/3.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/3.png)
 
 #### Вывод: Реализована функция replace, которая меняет местами первый и последний элементы списка.
 
@@ -107,7 +107,7 @@ a = [12, 54, 32, 57, 843, 2346, 765, 75, 25, 234, 756, 23]
 print((a[2:6]))
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/4.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/4.png)
 
 #### Вывод: Продемонстрировано использование срезов списка в Python для вывода элементов с заданными индексами.
 
@@ -123,7 +123,7 @@ print(useless([-12.5, 54, 77.3, 0, -36, 98.2, -63, 21.7, 47, -89.6]))
 print(useless([-25.8, 86, 12.5, -56, 73.2, 0, 43, -91.5, 65.9, -7]))
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/5.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/5.png)
 
 #### Вывод: Создана функция useless, которая вычисляет "бесполезное" число, деля максимальное значение в списке на его длину. 
 
@@ -140,7 +140,7 @@ print('Василий - ', vasiliy)
 print('Иван - ', ivan)
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/6.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/6.png)
 
 #### Вывод: Демонстрируется разделение списка на несколько переменных. Список superheroes разворачивается в три переменные nikolay, vasiliy, ivan, каждая из которых получает по одному элементу.
 
@@ -155,7 +155,7 @@ a.pop(0)
 print('Отсортированный список без наименьшего элемента:\n', a)
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/7.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/7.png)
 
 #### Вывод:  Реализована программа, которая находит минимальный элемент списка, сортирует его и удаляет этот элемент.  a.sort() - сортирует список по возрастанию.  a.pop(0) - удаляет первый элемент из списка, который является минимальным после сортировки.
 
@@ -176,7 +176,7 @@ if __name__ == '__main__':
     print(result)
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/8.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/8.png)
 
 #### Вывод:  Создан многомерный список, элементы которого являются списками случайной длины (от 3 до 10 элементов). 
 
@@ -201,7 +201,7 @@ if __name__ == '__main__':
     superset({90, 100}, {3, 5})
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/9.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/9.png)
 
 #### Вывод: Создана функция superset, которая сравнивает два множества и определяет, является ли одно из них супермножеством другого.
 
@@ -213,7 +213,7 @@ my_list = [2,5,8,3]
 print(my_list[::-1])
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/10.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/10.png)
 
 #### Вывод: родемонстрировано использование срезов списков для "переворачивания" списка. my_list[::-1] - создает срез списка my_list в обратном порядке (с шагом -1). Этот подход позволяет получить обратный список в одной строке кода. 
 
@@ -231,7 +231,7 @@ report = [8734, 2345, 8201, 6621, 9999, 1234, 5678, 8201, 8888, 4321, 3365,
 print(f"Выдано чеков: {len(report)} \nКоличество посетителей: {len(set(report))} \nЧастый клиент: {max(set(report), key = report.count)}")
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/11.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/11.png)
 
 #### Вывод: Этот код демонстрирует эффективное использование Python для анализа данных о чеках и посетителях, предоставляя полезную информацию о частоте посещений и уникальности клиентов.
 
@@ -247,7 +247,7 @@ print(f"Три лучших результата: {report[0:3]} \n"
       f"Все результаты с 10: {report1[9:len(report1)]}")
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/12.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/12.png)
 
 #### Вывод: Мы снова сортируем список results, но в порядке возрастания, чтобы найти три худших результата. После чего мы запускаем еще одну сортировку, но уже не в порядке убывания, что бы найти три лучших результата. И в конце мы используем срез списка, что бы найти все результаты начиная с 10.
 
@@ -272,7 +272,7 @@ print(f"Максимальные стороны: {max(one), max(two), max(three)
 
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/13.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/13.png)
 
 #### Вывод: Находим минимальные и максимальные значения в каждом из трех списков. Для вычисления площади треугольника, мы используем формулу Герона. Создадим функцию calculate_triangle_area, которая принимает длины трех сторон треугольника и возвращает его площадь. Вычисляем площади двух треугольников. 
 
@@ -294,7 +294,7 @@ correction(two)
 correction(three)
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/14.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/14.png)
 
 #### Вывод: Мы начинаем с создания нового пустого списка newScores, в который мы будем добавлять обновленные оценки. После чего мы используем цикл for, чтобы пройти по каждой оценке в исходном списке scores. После выполнения цикла, у нас есть новый список newScores, который содержит обновленные оценки. Мы выводим этот список на экран.
 
@@ -327,11 +327,11 @@ correction(list_3)
 
 ```
 #### Результат:
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/15.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/15.png)
 
 #### Вывод: Мы создаем функцию transform_to_strings, которая принимает число и количество его повторений, а затем возвращает строку, в которой число повторяется нужное количество раз. После чего мы создаем функцию process_list_to_set, которая принимает входной список, находит уникальные числа в списке, исключая повторения, и затем формирует множество, где числа, повторяющиеся более одного раза, представлены в виде строк в соответствии с заданным правилом, затем мы используем функцию process_list_to_set для обработки каждого из заданных списков и выводим результаты.
 
 ## Общий вывод: Эти задачи предоставляют превосходную возможность для практического применения навыков работы с данными в программировании. Они демонстрируют эффективное использование циклов, условных операторов и различных методов обработки списков и множеств.
 
 
-![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/111.py)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_5/Pic/111.png)
