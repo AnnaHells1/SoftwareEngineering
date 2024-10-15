@@ -1,11 +1,10 @@
-from random import randint
+line = input("Введите последовательность чисел: ")
+while len(line)<=15:
+    print("нужно минимум 15 символов.")
+    line = input("Введите последовательность чисел: ")
+def top_3_numbers(line):
+    line = list(map(int, line))
+    my_dict = {x: line.count(x) for x in range(10)}
+    print(my_dict)
 
-def list_maker():
-    a = [randint(1, 100)] * randint(3, 10)
-    return a
-
-if __name__ == '__main__':
-    result = []
-    for i in range(randint(1, 5)):
-        result.append(list_maker())
-    print(result)
+top_3_numbers(line)
