@@ -1,4 +1,6 @@
-user_input = input("Введите числа: ")
-numbers_list = [int(num) for num in user_input.split()]
-numbers_tuple = tuple(numbers_list)
-print(f"Список: {numbers_list} \nКортеж: {numbers_tuple}")
+with open('input,txt', 'a+') as f:
+   f.write('\nIm aditional line')
+
+with open('input.txt', 'r') as f:
+   result = f.readlines()
+   print(result)

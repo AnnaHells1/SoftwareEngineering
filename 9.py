@@ -1,10 +1,13 @@
-line = input("Введите последовательность чисел: ")
-while len(line)<=15:
-    print("нужно минимум 15 символов.")
-    line = input("Введите последовательность чисел: ")
-def top_3_numbers(line):
-    line = list(map(int, line))
-    my_dict = {x: line.count(x) for x in range(10)}
-    print(my_dict)
+def longest_world(file):
+    with open(file, encoding='utf-8') as f:
+        words = f.read().split()
+        max_lenght = len(max(words, key=len))
+        for word in words:
+            if len(word) == max_lenght:
+                sought_words = word
+        if len(sought_words) == 1:
+            return sought_words[0]
+        return sought_words
 
-top_3_numbers(line)
+
+print(longest_world('input.txt'))

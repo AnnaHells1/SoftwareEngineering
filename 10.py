@@ -1,14 +1,11 @@
-def tuple_remove(my_tuple):
-    for i in range(len(my_tuple)):
-        if i in my_tuple:
-            my_tuple.remove(i)
-    result_tuple = tuple(my_tuple)
-    print(result_tuple)
+import csv
+import datetime
+import time
 
-if __name__ == "__main__":
-    x = input("Входные данные: ")
-    input_list = []
-    for k in x:
-        if k.isdigit():
-            input_list.append(int(k))
-    tuple_remove(input_list)
+with open('rows_300.csv', 'w', encoding='utf-8', newline='') as f:
+  writer = csv.writer(f)
+  writer.writerow(['№', 'Секунда', 'Микросекунда'])
+  for line in range(1, 301):
+    writer.writerow([line, datetime.datetime.now().second,
+             datetime.datetime.now().microsecond])
+    time.sleep(0.01)

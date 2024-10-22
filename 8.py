@@ -1,10 +1,8 @@
-line = input("Введите последовательность чисел: ")
-while len(line)<=15:
-    print("нужно минимум 15 символов.")
-    line = input("Введите последовательность чисел: ")
-def top_3_numbers(line):
-    line = list(map(int, line))
-    my_dict = {x: line.count(x) for x in range(10)}
-    print(my_dict)
-
-top_3_numbers(line)
+import os
+def print_docks(directoty):
+    all_files = os.walk(directoty)
+    for catalog in all_files:
+        print(f'Папка{catalog[0]} содержит:')
+        print(f'Файлы: {",".join([file for file in catalog])}')
+        print('-' * 40)
+print_docks('C:Пользователи/Анна/Desktop/Software/1')
