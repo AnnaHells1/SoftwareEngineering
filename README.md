@@ -31,7 +31,7 @@ class Car:
 myCar = Car("Toyota", "Mazda")
 ```
 #### Результат:
-![Меню](hhttps://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/Pic/1.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_8/Pic/1.png)
 
 #### Вывод:  Создан класс `Car` с атрибутами `make` (производитель) и `model` (модель). Объект этого класса был успешно создан, что позволяет хранить информацию о конкретной машине.
 
