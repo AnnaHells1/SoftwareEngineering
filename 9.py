@@ -1,13 +1,41 @@
-def longest_world(file):
-    with open(file, encoding='utf-8') as f:
-        words = f.read().split()
-        max_lenght = len(max(words, key=len))
-        for word in words:
-            if len(word) == max_lenght:
-                sought_words = word
-        if len(sought_words) == 1:
-            return sought_words[0]
-        return sought_words
+class Book:
+    def __init__(self, title, author):
+        self._title = title
+        self._author = author
 
+    def get_title(self):
+        return self._title
 
-print(longest_world('input.txt'))
+    def set_title(self, title):
+        self._title = title
+
+    def get_author(self):
+        return self._author
+
+    def set_author(self, author):
+        self._author = author
+
+    def info(self):
+        print(f"Book Title: {self._title}")
+        print(f"Author: {self._author}")
+
+class EBook(Book):
+    def __init__(self, title, author, format):
+        super().__init__(title, author)
+        self._format = format
+
+    def get_format(self):
+        return self._format
+
+    def set_format(self, format):
+        self._format = format
+
+    def info(self):
+        super().info()
+        print(f"Format: {self.get_format()}")
+
+my_ebook = EBook("Anna Carenina", "Tolstoi", "PDF")
+
+my_ebook.set_title("New Title")
+
+my_ebook.info()

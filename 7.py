@@ -1,5 +1,12 @@
-lines = ['one', 'two', 'three']
-with open ('input.txt',"w" ) as f:
-  for line in lines:
-      f.write('\nCycle run' + line)
-print('Done!')
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def info(self):
+        print(f"Book Title: {self.title}")
+        print(f"Author: {self.author}")
+
+my_book = Book("Anna Carenina", "Tolstoi")
+
+my_book.info()

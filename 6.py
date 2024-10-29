@@ -1,6 +1,4 @@
-with open('input,txt', 'a+') as f:
-   f.write('\nIm aditional line')
-
-with open('input.txt', 'r') as f:
-   result = f.readlines()
-   print(result)
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
