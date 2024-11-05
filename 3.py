@@ -1,33 +1,23 @@
-# Определяем базовый класс Car
-class Car:
-    # Конструктор класса Car
-    def __init__(self, make, model):
-        # Атрибуты класса
-        self.make = make
-        self.model = model
+class MyClass:
+    def __init__(self, value):
+        self._value = value
 
-    # Метод для движения автомобиля
-    def drive(self):
-        print(f"Driving the {self.make} {self.model}")
+    def set_value(self,value):
+        self._value = value
 
-# Создаем подкласс ElectricCar, наследующий от Car
-class ElectricCar(Car):
-    # Конструктор класса ElectricCar
-    def __init__(self, make, model, battery_capacity):
-        # Вызываем конструктор родительского класса
-        super().__init__(make, model)
-        # Добавляем специфичный атрибут для электромобиля
-        self.battery_capacity = battery_capacity
+    def get_value(self):
+        return self._value
 
-    # Метод для заряда батареи
-    def charge(self):
-        print(f"Charging the {self.make} {self.model} with {self.battery_capacity} kWh")
+    def del_value(self):
+        del self._value
 
-# Создаем экземпляр класса ElectricCar
-my_electric_car = ElectricCar("Tesla", "Model S", 75)
+    value = property(get_value, set_value, del_value, "Свойство value")
 
-# Используем метод drive()
-my_electric_car.drive()
-
-# Используем метод charge()
-my_electric_car.charge()
+obj = MyClass(42)
+print(obj.get_value())
+obj.set_value(45)
+print(obj.get_value())
+obj.set_value(100)
+print(obj.get_value())
+obj.del_value()
+print(obj.get_value())

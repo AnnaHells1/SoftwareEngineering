@@ -1,9 +1,17 @@
-class Car:
-    def __init__(self, make, model):
-        self.make = make
-        self.model = model
-    def drive(self):
-        print(f"Driving the {self.make} {self.model}")
-
-myCar = Car("Toyota", "Mazda")
-myCar.drive()
+class Icecream:
+    def __init__(self, ingredient=None):
+        if isinstance(ingredient, str):
+            self. ingredient = ingredient
+        else:
+            self. ingredient = None
+    def composition(self):
+        if self. ingredient:
+            print(f"Мороженное с {self.ingredient}")
+        else:
+            print("Обычное мороженное")
+icecream = Icecream()
+icecream. composition()
+icecream = Icecream('шоколадом')
+icecream. composition()
+icecream = Icecream(5)
+icecream. composition()
