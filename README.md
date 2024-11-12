@@ -399,7 +399,7 @@ result = calculate_sum(5, 10)
 print(result)
 ```
 #### Результат:
-![Меню](hhttps://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/Pic/10.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/Pic/10.png)
 
 ### Вывод: 
 Определена базовая структура декоратора my_decorator, которая сохраняет метаданные оригинальной функции.
@@ -409,4 +409,4 @@ calculate_sum - вычисляет сумму двух чисел
 
 ## Общий вывод: В Python декораторы и исключения являются важными элементами языка, предоставляющими эффективные и гибкие механизмы для организации кода и обработки ошибок.
 
-![Меню](hhttps://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/Pic/111.png)
+![Меню](https://github.com/AnnaHells1/SoftwareEngineering/blob/%D0%A2%D0%B5%D0%BC%D0%B0_10/Pic/111.png)
